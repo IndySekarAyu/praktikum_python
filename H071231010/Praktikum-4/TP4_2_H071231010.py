@@ -7,7 +7,7 @@ def is_palindrome(x: str):
         return "Bukan Palindrom"
 
 # Test Case 1
-print(is_palindrome("kata kata")) 
+print(is_palindrome("radar")) 
 
 # Test Case 2
 print(is_palindrome("Step on no pets"))  

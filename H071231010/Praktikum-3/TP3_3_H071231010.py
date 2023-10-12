@@ -1,6 +1,6 @@
 M = float(input("masukkan derajat "))
 
-total_detik = int((M / 360) * 24 * 3600)
+total_detik = int((M / 360) * 24 * 60 * 60)
 
 jam = (total_detik // 3600 + 6) % 24
 menit = (total_detik % 3600) // 60

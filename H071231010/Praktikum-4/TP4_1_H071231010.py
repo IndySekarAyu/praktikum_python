@@ -1,7 +1,7 @@
 def permutasi(kata):
     try:
         permutasi = []
-        for i in range(kata):
+        for i in range(len(kata)):
             permutasi.append(kata)
             kata = kata [1:] + kata [0]
 
@@ -17,6 +17,6 @@ for hasil in hasil_permutasi:
     print(hasil, end = " | ")  
 
 
-# kata = "mobil"
-# kata1 = kata [1:] + kata [0]
-# print(kata1)
+kata = "mobil"
+kata1 = kata [1:] + kata [0]
+print(kata1)
